@@ -12,8 +12,10 @@ Esta API lê um arquivo PDF contendo um processo jurídico, extrai seu conteúdo
 3. Crie um ambiente virtual e ative-o:
 
        python -m venv venv
+
        # No Windows:
        venv\Scripts\activate
+
        # No Unix/Mac:
        source venv/bin/activate
 
@@ -29,9 +31,10 @@ Esta API lê um arquivo PDF contendo um processo jurídico, extrai seu conteúdo
 
 5. Defina a variável de ambiente para a chave da API:
 
-   # No Windows
+       # No Windows
        set API_KEY=sua_chave_de_api_aqui
-   # No Unix/Mac
+
+       # No Unix/Mac
        export API_KEY=sua_chave_de_api_aqui
 
 6. Execute a aplicação:
@@ -67,8 +70,8 @@ Esta API lê um arquivo PDF contendo um processo jurídico, extrai seu conteúdo
 
   Requisição(payload): Um dicionário em formato JSON contendo:
 
-  model: O modelo de LLM a ser utilizado.
-  messages: Uma lista de mensagens que define o contexto e o conteúdo a ser analisado pelo modelo. Inclui:
+    model: O modelo de LLM a ser utilizado.
+    messages: Uma lista de mensagens que define o contexto e o conteúdo a ser analisado pelo modelo. Inclui:
   
     Uma mensagem com o papel de "system" que instrui o modelo sobre as informações a serem extraídas.
     Uma mensagem com o papel de "user" que contém o texto extraído do PDF.
