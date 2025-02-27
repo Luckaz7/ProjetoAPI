@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "95eirRhb+J0RzNDEtxU9iMvdycsLpn8fp+NJAfE2hsc=",
+  "Source": "ProcessoMinimalAPI",
+  "BasePath": "_content/ProcessoMinimalAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

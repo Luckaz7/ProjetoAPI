@@ -1,0 +1,6 @@
+@ProcessoMinimalAPI_HostAddress = http://localhost:5297
+
+GET {{ProcessoMinimalAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
