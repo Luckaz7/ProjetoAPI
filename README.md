@@ -1,6 +1,6 @@
 # API de Extração de Informações de Processos Jurídicos
 
-Esta API lê um arquivo PDF contendo um processo jurídico, extrai seu conteúdo e utiliza uma API de Large Language Model (LLM) para obter informações específicas, como o número do processo e as partes envolvidas.
+Esta API em Python lê um arquivo PDF contendo um processo jurídico, extrai seu conteúdo e utiliza uma API de Large Language Model (LLM) para obter informações específicas, como o número do processo e as partes envolvidas.
 
 ## Como Executar a API
 
